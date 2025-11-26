@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Ensure no UA margin blocks hero from reaching the very top */
+body { margin: 0;
+margin-top: 0; }
+
+/* Custom helpers for Home page visual fidelity */
+.accent-corners:before,
+.accent-corners:after {
+  content: "";
+  position: absolute;
+  right: -2px;
+  width: 14px;
+  height: 3px;
+  background: #000;
+}
+.accent-corners:before { top: -2px; border-radius: 2px; }
+.accent-corners:after { bottom: -2px; border-radius: 2px; }
+
+.dot-6 { width: 6px; height: 6px; border-radius: 9999px; }
+
 /* LIGHT MODE */
 :root {
   --button-outline: rgba(0,0,0, .10);

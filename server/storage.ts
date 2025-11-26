@@ -41,7 +41,7 @@ export class MemStorage implements IStorage {
       instructor: "FORMATEUR INTERVENANT",
       location: "Victoria Library - Goma Congo RD",
       date: "Du 26 / Février 2025",
-      imageUrl: "/attached_assets/EDUCATION_1763466326947.png",
+      imageUrl: "/attached_assets/11.png",
       category: "cours",
     };
     
@@ -63,7 +63,7 @@ export class MemStorage implements IStorage {
       name: "Moses Sawasawa",
       title: "Photojournaliste",
       bio: "Moses Sawasawa est né à Goma, en septembre 1997. Membre de APJD /WORLD PRESS PHOTO, il débute la photographie en 2015...",
-      imageUrl: "/attached_assets/PROFIL CLIC - INTERVENANT_1763466326946.png",
+      imageUrl: "/attached_assets/ndebo2.png",
     };
 
     this.intervenants.set(intervenant1.id, intervenant1);
@@ -73,8 +73,8 @@ export class MemStorage implements IStorage {
       name: "Aubin Mukoni",
       title: "Photographe",
       bio: "Aubin Mukoni, un jeune photographe et vidéographe congolais né en 2002 et basé à Goma...",
-      imageUrl: "/attached_assets/Alumni CLIP PROFIL_1763466326945.png",
-      galleryImages: Array(9).fill("/attached_assets/Alumni CLIP PROFIL_1763466326945.png"),
+      imageUrl: "/attached_assets/aubin.png",
+      galleryImages: Array(9).fill("/attached_assets/aubin.png"),
     };
 
     this.alumni.set(alumni1.id, alumni1);

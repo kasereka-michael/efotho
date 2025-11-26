@@ -1,4 +1,4 @@
-# Efothe - Photography Education Platform
+ Efothe - Photography Education Platform
 
 ## Overview
 A fully responsive photography education website for Efothe, featuring course listings, photographer profiles, alumni showcase, and organizational information. Built with React, TypeScript, and Tailwind CSS with a sage green color scheme.
